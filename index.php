@@ -30,24 +30,21 @@
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Country Name</label>
         <div class="col-sm-10">
-          <input type="text" name="destinationName" class="form-control" placeholder="Destination Name">
+          <input type="text" name="destinationName" class="form-control" >
         </div>
       </div>
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">City</label>
         <div class="col-sm-10">
-          <input type="text" name="destinationCity" class="form-control" placeholder="Destination City">
+          <input type="text" name="destinationCity" class="form-control" >
         </div>
       </div>
-
-
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Min date</label>
         <div class="col-sm-10">
           <input type="date" name="minTripStartDate" class="form-control">
         </div>
       </div>
-
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Max date</label>
         <div class="col-sm-10">
@@ -58,56 +55,50 @@
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">length Of Stay</label>
         <div class="col-sm-10">
-          <input type="text" name="lengthOfStay" class="form-control" placeholder="length Of Stay">
+          <input type="text" name="lengthOfStay" class="form-control" >
         </div>
       </div>
 
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Min Star Rating</label>
         <div class="col-sm-10">
-          <input type="text" name="minStarRating" class="form-control" placeholder="minStarRating">
+          <input type="text" name="minStarRating" class="form-control" >
         </div>
       </div>
-
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Max Star Rating</label>
         <div class="col-sm-10">
-          <input type="text" name="maxStarRating" class="form-control" placeholder="Max Star Rating">
+          <input type="text" name="maxStarRating" class="form-control" >
         </div>
       </div>
-
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Min Total Rate</label>
         <div class="col-sm-10">
-          <input type="text" name="minTotalRate" class="form-control" placeholder="Min Total Rate">
+          <input type="text" name="minTotalRate" class="form-control" >
         </div>
       </div>
 
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Max Total Rate</label>
         <div class="col-sm-10">
-          <input type="text" name="maxTotalRate" class="form-control" placeholder="maxTotalRate">
+          <input type="text" name="maxTotalRate" class="form-control" >
         </div>
       </div>
-
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Min Guest Rating</label>
         <div class="col-sm-10">
-          <input type="text" name="minGuestRating" class="form-control" placeholder="Min Guest Rating">
+          <input type="text" name="minGuestRating" class="form-control" >
         </div>
       </div>
-
       <div class="form-group row">
         <label class="col-sm-2 col-form-label">Max Guest Rating</label>
         <div class="col-sm-10">
-          <input type="text" name="maxGuestRating" class="form-control" placeholder="Max Guest Rating">
+          <input type="text" name="maxGuestRating" class="form-control" >
         </div>
       </div>
-
       <div class="text-center py-3">
         <button type="submit" class="btn btn-primary btn-lg">Find the hottest deals!</button>
       </div>
-
     </form>
   </div>
 </body>

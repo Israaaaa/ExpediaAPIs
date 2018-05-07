@@ -1,5 +1,7 @@
 <?php
-if (isset($_POST['minTripStartDate']) && !empty($_POST['maxTripStartDate'])) {
+$minTripStartDate = "";
+$maxTripStartDate = "";
+if (isset($_POST['minTripStartDate']) && !empty($_POST['minTripStartDate'])) {
   $minTripStartDate = date("Y-m-d", strtotime($_POST['minTripStartDate']));
 }
 if (isset($_POST['maxTripStartDate']) && !empty($_POST['maxTripStartDate'])) {
