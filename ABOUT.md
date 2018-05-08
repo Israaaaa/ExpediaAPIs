@@ -1,6 +1,6 @@
 # Expedia API
 
-Use the Expedia public API to help vacation-seekers filter out the best vacation deals.
+Use the Expedia public API to help vacation-seekers filter out the best vacation deals..
 
 ### Why PHP?
 
